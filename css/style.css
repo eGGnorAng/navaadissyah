@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&family=Montserrat:wght@300;400;500;700&family=Roboto:wght@100;400;700&family=Saira+Condensed:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary: #787878;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #f4e7fd;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Inter', 'Roboto', 'Montserrat', 'Saira Condensed';
+  padding: 4.5em 4em;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+section.about {
+  width: fit-content;
+  margin-left: 43px;
+}
+
+section h1,
+.hmu,
+.location {
+  margin-bottom: 7.33px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: -10px;
+}
+
+p,
+ol {
+  font-size: 1.25em;
+  color: var(--primary);
+}
+
+.location {
+  font-weight: 700;
+}
+
+.about {
+  color: #000;
+}
+
+main {
+  margin-top: 3em;
+  margin: 3em auto;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 9px;
+}
+
+hr {
+  height: 3px;
+  background-color: #000;
+  border: none;
+}
+
+main section,
+ul {
+  margin-left: 2.5em;
+  margin-top: 2em;
+}
+
+ol,
+ul {
+  list-style-position: inside;
+}
+
+.we,
+span {
+  margin-bottom: 0.5625em;
+}
+
+.we h3,
+.we p,
+ul {
+  display: inline-block;
+}
+
+.we h3 {
+  width: 65%;
+  font-size: 1.5em;
+}
+
+.we p {
+  width: 35%;
+  text-align: right;
+}
+
+span {
+  font-size: 1.375em;
+  font-style: italic;
+  display: block;
+}
+
+aside {
+  margin-top: 4.875em;
+}
+
+li {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+ul .skill {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 100;
+  margin-bottom: 0;
+}
