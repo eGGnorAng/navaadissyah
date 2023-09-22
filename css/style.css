@@ -165,9 +165,19 @@ ul .skill {
   }
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  header section.about {
+    margin-left: 2rem;
+  }
+}
+
 @media (max-width: 1024px) {
   html {
     font-size: 12px;
+  }
+
+  h1 {
+    font-size: 2.5em;
   }
 
   main section {
